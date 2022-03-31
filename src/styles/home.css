@@ -7,12 +7,46 @@
 .navbar {
     background-color:chartreuse;
 }
-@font-face {
-    font-family: 'Creepster', cursive;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Playfair Display', serif;
-    src: url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script&family=Playfair+Display:ital,wght@1,400;1,500&display=swap');
+
+.abre {
+    background-color:white;
+    color:chartreuse;
+}
+.titulo {
+    color:chartreuse;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.titulo {font-family: Creepster;
+.cuerpo { 
+    background-color:black;
+    font-family: rym;
+}
+
+.row {
+    display:inline-block;
+}
+.card {
+    background-color:lime;
+}
+
+.footer {
+    color:cyan;
+    background-color:black;
+}
+
+.carousel {
+    background-color:fuchsia;
+    align-items: center;
+    display:flex;
+}
+
+.nombres {
+    font-size: larger;
+    background-color:palegreen;
+}
+.Favs {
+    color:crimson;
+    border-radius:70px;
+    float: right;
+    
 }

@@ -1,20 +1,18 @@
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
-			demo: [
-				{
-					title: "FIRST",
-					background: "white",
-					initial: "white"
-				},
-				{
-					title: "SECOND",
-					background: "white",
-					initial: "white"
-				}
-			]
+			characters: [],
 		},
 		actions: {
+			getCharacters: ()=> {
+				const store = getStore();
+				fetch("https://rickandmortyapi.com/api/character/")
+				.then(response => response.json())
+				.then(result => setStore({characters: result.results}))
+				.catch(error => console.log('error', error));
+			},
+
+
 			// Use getActions to call a function within a fuction
 			exampleFunction: () => {
 				getActions().changeColor(0, "green");
