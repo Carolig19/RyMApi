@@ -12,6 +12,15 @@
     background-color:white;
     color:chartreuse;
 }
+.guardar {
+    float:right;
+    color:rgb(226, 72, 16);
+    font-size:xx-large;
+    margin-right:100px;
+    margin-top:50px;
+    border-radius:70px;
+    background-color:rgb(12, 251, 12);
+}
 .titulo {
     color:chartreuse;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -49,4 +58,15 @@
     border-radius:70px;
     float: right;
     
+}
+
+.deta1 {
+    height:130px;
+    background-image: url("https://64.media.tumblr.com/10a3c5576f7cc37cde56d9ca0efb1377/tumblr_pfd7zhgPiO1x6lzrbo1_540.png");
+    text-align:center;
+    color:chartreuse;
+}
+
+.deta2 {
+    color: white;
 }
